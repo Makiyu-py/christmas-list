@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+import { games, books } from './cl';
+import NavBar from './components/Nav';
+import List from './components/List';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+	return (
+		<div className="scroll-smooth">
+			<NavBar />
+			<main className="mt-2">
+				<h1 className="text-3xl font-bold capitalize underline text-center">
+					Stuff that I want for this year's Christmas
+				</h1>
+				<List name="games" list={games} />
+				<List name="books" list={books} />
+			</main>
+		</div>
+	);
 }
-
-export default App;
