@@ -1,7 +1,6 @@
 import { games, books } from './cl';
 import NavBar from './components/Nav';
 import List from './components/List';
-import './App.css';
 
 export default function App() {
 	return (

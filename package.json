@@ -1,6 +1,7 @@
 {
   "name": "christmas-list",
   "version": "0.1.0",
+  "homepage": "https://makiyu-py.github.io/christmas-list",
   "private": true,
   "license": "MIT",
   "dependencies": {
