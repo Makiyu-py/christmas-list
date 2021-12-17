@@ -3,9 +3,9 @@ import Item from './Item';
 export default function List({ name, list }) {
     let listUI = list.map((i) => <div className="flex-initial"><Item {...i} /></div>)
 	return (
-		<div className="mt-5 scroll-mt-20">
+		<div className="mt-5">
 			<div
-				className="mb-5 sm:mb-0 text-2xl text-gray-500 capitalize text-center font-bold"
+				className="mb-5 sm:mb-0 scroll-mt-20 text-2xl text-gray-500 capitalize text-center font-bold"
 				id={name}
 			>
 				{name}

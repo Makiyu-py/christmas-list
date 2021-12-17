@@ -4,7 +4,7 @@ import List from './components/List';
 
 export default function App() {
 	return (
-		<div className="scroll-smooth">
+		<div>
 			<NavBar />
 			<main className="mt-2">
 				<h1 className="text-3xl font-bold capitalize underline text-center">
