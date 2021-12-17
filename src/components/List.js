@@ -1,7 +1,7 @@
 import Item from './Item';
 
 export default function List({ name, list }) {
-    let listUI = list.map((i) => <div className=""><Item {...i} /></div>)
+    let listUI = list.map((i) => <div className="flex-initial"><Item {...i} /></div>)
 	return (
 		<div className="mt-5 scroll-mt-20">
 			<div
@@ -10,7 +10,7 @@ export default function List({ name, list }) {
 			>
 				{name}
 			</div>
-			<div className="grid sm:grid-cols-2 md:grid-cols-none md:grid-flow-col md:auto-cols-auto gap-x-[6%] gap-y-5 sm:mt-5 justify-items-center justify-center">
+			<div className="flex flex-wrap gap-x-20 gap-y-5 sm:mt-5 justify-center">
 				{listUI}
 			</div>
 		</div>
