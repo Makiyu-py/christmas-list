@@ -10,7 +10,7 @@ export default function List({ name, list }) {
 			>
 				{name}
 			</div>
-			<div className="flex flex-wrap gap-x-20 gap-y-5 sm:mt-5 justify-center">
+			<div className="flex flex-wrap max-w-[80%] gap-x-20 gap-y-5 sm:mt-5 ml-auto mr-auto justify-center">
 				{listUI}
 			</div>
 		</div>
