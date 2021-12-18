@@ -12,7 +12,7 @@ export default function NavBar() {
 	));
 	return (
 		<div className="sticky top-0 text-slate-100 p-5 w-full bg-gray-800 border-b border-slate-700">
-			Christmas List 2021
+			<a href="#top">Christmas List 2021</a>
 			<div className="float-right mr-2">{redirects}</div>
 		</div>
 	);
