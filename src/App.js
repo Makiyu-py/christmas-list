@@ -6,8 +6,8 @@ export default function App() {
 	return (
 		<div>
 			<NavBar />
-			<main className="mt-2">
-				<h1 className="text-3xl font-bold capitalize underline text-center">
+			<main>
+				<h1 className="pt-2 text-white text-3xl font-bold capitalize underline text-center">
 					Stuff that I want for this year's Christmas
 				</h1>
 				<List name="games" list={games} />
