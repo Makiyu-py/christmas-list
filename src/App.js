@@ -11,7 +11,7 @@ export default function App() {
 					className="pt-2 scroll-mt-20 text-white text-3xl font-bold capitalize underline text-center"
 					id="top"
 				>
-					Stuff that I want for this year's Christmas
+					Stuff that I want for Christmas 2021
 				</h1>
 				<List name="games" list={games} />
 				<List name="books" list={books} />
